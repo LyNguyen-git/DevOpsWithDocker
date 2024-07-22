@@ -1,0 +1,14 @@
+C:\Users\lynguyen>docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
+2551365ffae6   ubuntu    "sh -c 'while true; …"   22 minutes ago   Up 22 minutes             missing
+
+C:\Users\lynguyen>docker exec -it missing bash
+root@2551365ffae6:/# curl helsinki.fi
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.22.1</center>
+</body>
+</html>
+root@2551365ffae6:/#
