@@ -1,0 +1,8 @@
+C:\Users\lynguyen>docker exec hardcore_sammet tail -f ./text.log
+2024-07-22 14:09:02 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-07-22 14:09:04 +0000 UTC
+2024-07-22 14:09:06 +0000 UTC
+2024-07-22 14:09:08 +0000 UTC
+2024-07-22 14:09:10 +0000 UTC
+2024-07-22 14:09:12 +0000 UTC
