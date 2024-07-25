@@ -1,0 +1,8 @@
+C:\Users\lynguyen>docker ps -a
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED       STATUS                   PORTS     NAMES
+4494d5bcfa1a   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   3 hours ago   Exited (2) 3 hours ago             objective_hopper
+
+C:\Users\lynguyen>docker run -it devopsdockeruh/pull_exercise
+Give me the password: basics
+You found the correct password. Secret message is:
+"This is the secret message"
